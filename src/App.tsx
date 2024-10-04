@@ -121,7 +121,7 @@ function App() {
   return (
     <>
       <div>
-        <a href={wallet.currentAccount?.address ? "https://suiexplorer.com/address/" + wallet.currentAccount?.address : "https://suiexplorer.com"}
+        <a href={wallet.currentAccount?.address ? "https://suivision.xyz/address/" + wallet.currentAccount?.address : "https://suivision.xyz"}
           target="_blank">
           <img src="/assets/image/ProjectX-logo.png" className="logo sui" alt="Sui Explorer" />
         </a>
@@ -181,7 +181,7 @@ function App() {
             <>
               {logs.split('digest: ')[1] && (
                 <a
-                  href={`https://suiexplorer.com/txblock/${logs.split('digest: ')[1]}`}
+                  href={`https://suivision.xyz/txblock/${logs.split('digest: ')[1]}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
